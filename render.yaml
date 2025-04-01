@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: expense-tracker
+    name: expense-tracker-ws
     env: docker
     buildCommand: mvn clean package -DskipTests
     startCommand: java -jar target/ExpenseTracker-0.0.1-SNAPSHOT.war
