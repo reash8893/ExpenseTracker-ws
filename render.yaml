@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: expense-tracker
+    env: docker
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -jar target/ExpenseTracker-0.0.1-SNAPSHOT.war
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        sync: false
+      - key: SPRING_DATASOURCE_USERNAME
+        sync: false
+      - key: SPRING_DATASOURCE_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: AI_PARSER_URL
+        sync: false 

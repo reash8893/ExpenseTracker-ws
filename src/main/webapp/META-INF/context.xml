@@ -1,0 +1,5 @@
+<Context>
+    <Connector port="9080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+</Context>

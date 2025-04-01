@@ -1,0 +1,11 @@
+flask==2.0.1
+werkzeug==2.0.1
+numpy==1.22.3
+opencv-python==4.5.5.64
+pytesseract==0.3.9
+PyMuPDF==1.19.6
+pillow>=9.1.0
+torch==1.11.0
+transformers==4.23.1
+scikit-learn==1.0.2
+pdfplumber==0.7.5 
